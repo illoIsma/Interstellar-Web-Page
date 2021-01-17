@@ -1,0 +1,130 @@
+
+/*NAV ACTIVE*/
+nav .navegadorPrincipal .active3 {
+    color: rgb(73, 226, 231);
+    text-shadow: 1px 1px 1px #000000;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+section{
+    margin-top: 3%;
+    width: 100%;
+}
+
+.articulo1{
+    width: 100%;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.articulo1 p{
+    width: 10%;
+    margin-left: 500px;
+    float: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.articulo1 audio{
+    width: 30%;
+    margin-left: 200px;
+    margin: auto;
+    
+}
+
+
+
+.articulo2{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.articulo2 p{
+    width: 10%;
+    margin-left: 500px;
+    float: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.articulo2 audio{
+    width: 30%;
+    margin-left: 200px;
+    margin: auto;
+    
+}
+
+
+
+.articulo3{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.articulo3 p{
+    width: 10%;
+    margin-left: 500px;
+    float: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.articulo3 audio{
+    width: 30%;
+    margin-left: 200px;
+    margin: auto;
+    
+}
+
+.articulo4{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.articulo4 p{
+    width: 10%;
+    margin-left: 500px;
+    float: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.articulo4 audio{
+    width: 30%;
+    margin-left: 200px;
+    margin: auto;
+    
+}
+
+
+.articulo5{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.articulo5 p{
+    width: 10%;
+    margin-left: 500px;
+    float: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.articulo5 audio{
+    width: 30%;
+    margin-left: 200px;
+    margin: auto;
+    
+}
+
+
+.articulo6{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.articulo6 p{
+    width: 10%;
+    margin-left: 500px;
+    float: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.articulo6 audio{
+    width: 30%;
+    margin-left: 200px;
+    margin: auto;
+    
+}
+
+
+.estrellas{
+    margin-top: 15px;
+    width: 100px;
+}

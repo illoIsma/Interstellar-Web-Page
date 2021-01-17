@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--CSS GENERAL-->
+    <link rel="stylesheet" href="css/general_styles.css">
+    <!--CSS DE AL PÁGINA-->
+    <link rel="stylesheet" href="css/soundtracks.css">
+    <link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
+    <link  rel="icon" href="imgs/iconos/favIcon.png" type="image/png"/>
+
+    <title>Soundtracks page</title>
+</head>
+
+<body>
+
+    <div class="cajaPrincipal">
+
+        <!--HEADER CONTENT-->
+        <header>
+            <div class="cajaHeader">
+                <div>
+                    <img class="imagenBanner" src="imgs/banner/banner.jpg" alt="img_cabecera">
+                </div>
+            </div>
+        </header>
+
+        <!--NAV CONTENT-->
+        <nav>
+            <div class="navegadorPrincipal">
+                <ul>
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="#">Galería &dtrif;</a>
+                        <ul>
+                            <li><a href="personajes.html">Personajes</a></li>
+                            <li><a href="actores.html">Actores principales</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="active3" href="audio.html">Soundtracks</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </nav>
+
+
+        <!--MAIN CONTENT AUDIOS-->
+        <section>
+            <article class="articulo1">
+                <div>
+                    <p>Cornfield Chase </p>
+                    <img class="estrellas" src="imgs/iconos/puntuation.png" alt="img_estrellas">
+                </div>
+                <div>
+                    <audio src="audios/cancion1.mp3" controls=""></audio>
+                </div>
+                
+            </article>
+
+            <article class="articulo2">
+                <div>
+                    <p>Dust, Hans Zimmer </p>
+                    <img class="estrellas" src="imgs/iconos/puntuation.png" alt="img_estrellas">
+                </div>
+                <div>
+                    <audio src="audios/cancion2.mp3" controls=""></audio>
+                </div>
+                
+                
+            </article>
+
+
+            <article class="articulo3">
+                <div>
+                    <p>Day One</p> 
+                    <img class="estrellas" src="imgs/iconos/puntuation.png" alt="img_estrellas">
+                </div>
+                <div>
+                    <audio src="audios/cancion3.mp3" controls=""></audio>
+                </div>
+                
+            </article>
+
+            <article class="articulo4">
+                <div>
+                    <p>The Wormhole</p> 
+                    <img class="estrellas" src="imgs/iconos/puntuation.png" alt="img_estrellas">
+                </div>
+                <div>
+                    <audio src="audios/cancion4.mp3" controls=""></audio>
+                </div>
+                
+            </article>
+
+            <article class="articulo5">
+                <div>
+                    <p>Mountais</p> 
+                    <img class="estrellas" src="imgs/iconos/puntuation.png" alt="img_estrellas">
+                </div>
+                <div>
+                    <audio src="audios/cancion5.mp3" controls=""></audio>
+                </div>
+                
+            </article>
+
+
+            <article class="articulo6">
+                <div>
+                    <p>Running Out</p> 
+                    <img class="estrellas" src="imgs/iconos/puntuation.png" alt="img_estrellas">
+                </div>
+                <div>
+                    <audio src="audios/cancion6.mp3" controls=""></audio>
+                </div>
+                
+            </article>
+        </section>
+
+
+        <!--FOOTER CONTENT-->
+        <footer>
+        <div class="cajaFooter">
+            <div class="derechos">
+                <p>Ismael Díaz Revaliente - 2DAW</p>
+            </div>
+        </div>
+        <div class="redes">
+            <a href="https://www.facebook.com/" class="facebook">F</a>
+            <a href="https://twitter.com/?lang=es" class="twitter">T</a>
+            <a href="https://www.instagram.com/?hl=es" class="instagram">I</a>
+        </div>
+    </footer>
+
+    
+
+
+    </div>
+
+<!--BOTÓN PARA SUBIR-->
+<button onclick="topFunction()" id="myBtn" title="Go to top">Subir</button>
+
+<script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+
+
+    </div>
+
+</body>
+
+</html>

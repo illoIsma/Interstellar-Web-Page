@@ -1,0 +1,60 @@
+/*NAV ACTIVE*/
+nav .navegadorPrincipal .active2 {
+    color: rgb(73, 226, 231);
+    text-shadow: 1px 1px 1px #000000;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+nav .navegadorPrincipal .active2-1 {
+    color: rgb(128, 228, 231);
+    text-shadow: 1px 1px 1px #000000;
+    font-weight: bold;
+}
+
+/*MAIN CONTENT STYLE*/
+section{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.imagenIzquierda{
+    width: 21%;
+    float: left;
+}
+
+.imagenIzquierda img{
+    width: 270px;
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px black;
+    float: left;
+    
+}
+
+.textoDerecha{
+    width: 60%;
+    margin-left: 60px;
+    float: left;
+}
+
+.textoDerecha p{
+    font-size: 18px;
+    line-height: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.textoDerecha p::first-letter{
+    font-size: 3.5em;
+    font-family: serif;
+    margin: 7px;
+    float: left;
+}
+
+section article{
+    margin-top: 60px;
+    padding-left: 10%;
+    float: left;
+}
+
+
+

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--CSS GENERAL-->
+    <link rel="stylesheet" href="css/general_styles.css" />
+    <!--CSS DE LA PÁGINA-->
+    <link rel="stylesheet" href="css/index_styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Arvo&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="imgs/iconos/favIcon.png" type="image/png" />
+    <title>Home</title>
+  </head>
+
+  <body>
+    
+    <div class="cajaPrincipal">
+      <!--HEADER CONTENT-->
+      <header>
+        <div class="cajaHeader">
+          <div>
+            <img
+              class="imagenBanner"
+              src="imgs/banner/banner.jpg"
+              alt="img_cabecera"
+            />
+          </div>
+        </div>
+      </header>
+
+      <!--NAV CONTENT-->
+      <nav>
+        <div class="navegadorPrincipal">
+          <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li>
+              <a href="#">Galería &dtrif;</a>
+              <ul>
+                <li><a href="personajes.html">Personajes</a></li>
+                <li><a href="actores.html">Actores principales</a></li>
+              </ul>
+            </li>
+            <li><a href="audio.html">Soundtracks</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <!--MAIN CONTENT-->
+      <section class="seccionSlider">
+        <article>
+          <video id="slider" autoplay muted loop>
+            <source src="videos/video3.mp4" type="video/mp4" />
+          </video>
+
+          <ul class="navegacion">
+            <li onclick="cargarVideo('videos/video2.mp4');">
+              <img src="imgs/Slider/2.jpg" />
+            </li>
+
+            <li onclick="cargarVideo('videos/video1.mp4');">
+              <img src="imgs/Slider/1.jpg" />
+            </li>
+
+            <li onclick="cargarVideo('videos/video4.mp4');">
+              <img src="imgs/Slider/3.jpg" />
+            </li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="texto">
+        <article>
+          <h1>ARGUMENTO</h1>
+          <p>
+            A mediados del siglo XXI, la destrucción de las cosechas en la
+            Tierra ha hecho que la agricultura sea cada vez más difícil y se vea
+            amenazada la supervivencia de la humanidad.
+            <b>Joseph Cooper, viudo, exingeniero y piloto de la NASA</b>, dirige
+            una granja con su suegro Donald, su hijo Tom y su hija Murph, quien
+            cree que su habitación está embrujada por un poltergeist.<br />Cuando
+            aparecen inexplicablemente extraños patrones de polvo en el suelo de
+            la habitación de Murph, Cooper se da cuenta de que la gravedad está
+            detrás de su formación, <b>no un "fantasma".</b> Interpreta el
+            patrón como un conjunto de coordenadas geográficas formadas en
+            código binario. Cooper y Murph siguen las coordenadas a una
+            instalación secreta de la NASA, donde se encuentran con el
+            exprofesor de Cooper, el doctor Brand.
+          </p>
+
+          <p>
+            Brand revela que, misteriosamente, un agujero de gusano apareció
+            cerca de Saturno hace 48 años, abriendo un camino a una galaxia
+            distante con algunos planetas potencialmente habitables. Bajo su
+            dirección, <b>doce voluntarios</b> viajaron a través del agujero
+            para evaluar la idoneidad de cada planeta como nuevo hogar de la
+            humanidad. <b>Los voluntarios Miller, Edmunds y Mann</b> enviaron
+            datos alentadores de planetas cerca de un agujero negro supermasivo
+            llamado Gargantúa. <b>Brand recluta a Cooper</b> para pilotar la
+            nave espacial Endurance con el fin de investigar más, mientras
+            trabaja en el "Plan A", una teoría gravitatoria de la propulsión que
+            permitiría el <b>éxodo desde la Tierra</b> a esos nuevos planetas.
+          </p>
+        </article>
+      </section>
+
+      <section class="cajaTrailer">
+        <article>
+          <h1>TRAILER DE LANZAMIENTO</h1>
+
+          <div id="video">
+            <video controls preload loop poster="imgs/banner/bannerTrailer.jpg">
+              <source src="videos/trailer.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </article>
+      </section>
+
+      <!--FOOTER CONTENT-->
+      <footer>
+        <div class="cajaFooter">
+          <div class="derechos">
+            <p>Ismael Díaz Revaliente - 2DAW</p>
+          </div>
+        </div>
+        <div class="redes">
+          <a href="https://www.facebook.com/" class="facebook">F</a>
+          <a href="https://twitter.com/?lang=es" class="twitter">T</a>
+          <a href="https://www.instagram.com/?hl=es" class="instagram">I</a>
+        </div>
+      </footer>
+
+      <a class="ir-arriba" javascript:void(0) title="Volver arriba">
+        <span class="fa-stack">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-arrow-up fa-stack-1x fa-inverse"></i>
+        </span>
+      </a>
+    </div>
+
+    <!--BOTÓN PARA SUBIR-->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Subir</button>
+
+    <!--SCRIPTS-->
+    <script type="text/javascript">
+      function cargarVideo(url) {
+        document.getElementById("slider").src = url;
+      }
+    </script>
+
+<script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+  </body>
+</html>
